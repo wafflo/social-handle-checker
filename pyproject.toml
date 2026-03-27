@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "social-handle-checker"
+version = "0.3.0"
+description = "Hybrid cross-platform social handle checker with official checks, resolvers, and public profile probes."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "OpenAI" }]
+dependencies = [
+  "aiohttp>=3.9.0",
+  "aiofiles>=24.1.0",
+  "colorama>=0.4.6"
+]
+
+[project.scripts]
+socialcheck = "social_handle_checker.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+social_handle_checker = ["data/wordlists/*.txt"]
