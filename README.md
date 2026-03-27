@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner-main.png" alt="Social Handle Checker Banner" width="100%" />
+<img src="./assets/pfp.png" alt="Dragic PFP" width="160" />
 
 # Social Handle Checker
 
@@ -24,16 +24,6 @@ It combines **official availability checks**, **resolver-based logic**, and **pu
   <a href="https://dragic.site"><strong>Visit dragic.site</strong></a>
 </p>
 
-</div>
-
----
-
-## Preview
-
-<div align="center">
-  <img src="./assets/pfpppp.png" alt="Dragic Round PFP" width="170" />
-  <img src="./assets/asdasda.png" alt="Dragic Square Graphic" width="170" />
-  <img src="./assets/pfp.png" alt="Dragic Alt PFP" width="170" />
 </div>
 
 ---
@@ -264,18 +254,6 @@ That is the difference between a useful tool and a misleading one.
 
 ---
 
-## Gallery
-
-<div align="center">
-  <img src="./assets/dragic_upscaled.png" alt="Dragic Banner Alt" width="100%" />
-  <br /><br />
-  <img src="./assets/pfpppp.png" alt="Round PFP" width="150" />
-  <img src="./assets/asdasda.png" alt="Square Graphic" width="150" />
-  <img src="./assets/pfp.png" alt="Alt PFP" width="150" />
-</div>
-
----
-
 ## Website
 
 If you want project updates, branding, or anything else tied to the Dragic side:
@@ -293,12 +271,7 @@ If you want project updates, branding, or anything else tied to the Dragic side:
 ```text
 social-handle-checker/
 ├── assets/
-│   ├── 7a713a51-2d6b-4849-a575-13dae0ba857f.png
-│   ├── asdasda.png
-│   ├── banner-main.png
-│   ├── dragic_upscaled.png
-│   ├── pfp.png
-│   └── pfpppp.png
+│   └── pfp.png
 ├── src/
 │   └── social_handle_checker/
 ├── README.md
@@ -311,16 +284,11 @@ social-handle-checker/
 
 ## Image setup
 
-This README expects these image files to sit inside the **assets** folder:
+This README expects only this image inside the **assets** folder:
 
-- `assets/7a713a51-2d6b-4849-a575-13dae0ba857f.png`
-- `assets/asdasda.png`
-- `assets/banner-main.png`
-- `assets/dragic_upscaled.png`
 - `assets/pfp.png`
-- `assets/pfpppp.png`
 
-If any image does not load on GitHub, make sure the filename matches **exactly**, including capitalization.
+If the image does not load on GitHub, make sure the filename matches **exactly**, including capitalization.
 
 ---
 
@@ -349,7 +317,5 @@ MIT License.
 ### dragic / wafflo
 
 **Website:** [dragic.site](https://dragic.site)
-
-<img src="./assets/asdasda.png" alt="Dragic Avatar" width="140" />
 
 </div>
