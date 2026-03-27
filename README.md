@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="dragic_upscaled.png" alt="Social Handle Checker Banner" width="100%" />
+<img src="./assets/banner-main.png" alt="Social Handle Checker Banner" width="100%" />
 
 # Social Handle Checker
 
@@ -31,9 +31,9 @@ It combines **official availability checks**, **resolver-based logic**, and **pu
 ## Preview
 
 <div align="center">
-  <img src="pfpppp.png" alt="Dragic Round PFP" width="170" />
-  <img src="asdasda.png" alt="Dragic Square Graphic" width="170" />
-  <img src="pfp.png" alt="Dragic Alt PFP" width="170" />
+  <img src="./assets/pfpppp.png" alt="Dragic Round PFP" width="170" />
+  <img src="./assets/asdasda.png" alt="Dragic Square Graphic" width="170" />
+  <img src="./assets/pfp.png" alt="Dragic Alt PFP" width="170" />
 </div>
 
 ---
@@ -267,11 +267,11 @@ That is the difference between a useful tool and a misleading one.
 ## Gallery
 
 <div align="center">
-  <img src="7a713a51-2d6b-4849-a575-13dae0ba857f.png" alt="Dragic Banner Alt" width="100%" />
+  <img src="./assets/dragic_upscaled.png" alt="Dragic Banner Alt" width="100%" />
   <br /><br />
-  <img src="pfpppp.png" alt="Round PFP" width="150" />
-  <img src="asdasda.png" alt="Square Graphic" width="150" />
-  <img src="pfp.png" alt="Alt PFP" width="150" />
+  <img src="./assets/pfpppp.png" alt="Round PFP" width="150" />
+  <img src="./assets/asdasda.png" alt="Square Graphic" width="150" />
+  <img src="./assets/pfp.png" alt="Alt PFP" width="150" />
 </div>
 
 ---
@@ -292,13 +292,15 @@ If you want project updates, branding, or anything else tied to the Dragic side:
 
 ```text
 social-handle-checker/
+├── assets/
+│   ├── 7a713a51-2d6b-4849-a575-13dae0ba857f.png
+│   ├── asdasda.png
+│   ├── banner-main.png
+│   ├── dragic_upscaled.png
+│   ├── pfp.png
+│   └── pfpppp.png
 ├── src/
 │   └── social_handle_checker/
-├── dragic_upscaled.png
-├── asdasda.png
-├── pfpppp.png
-├── 7a713a51-2d6b-4849-a575-13dae0ba857f.png
-├── pfp.png
 ├── README.md
 ├── LICENSE
 ├── pyproject.toml
@@ -309,15 +311,16 @@ social-handle-checker/
 
 ## Image setup
 
-This README expects these image files to sit in the **root of the repo**, next to `README.md`:
+This README expects these image files to sit inside the **assets** folder:
 
-- `dragic_upscaled.png`
-- `asdasda.png`
-- `pfpppp.png`
-- `7a713a51-2d6b-4849-a575-13dae0ba857f.png`
-- `pfp.png`
+- `assets/7a713a51-2d6b-4849-a575-13dae0ba857f.png`
+- `assets/asdasda.png`
+- `assets/banner-main.png`
+- `assets/dragic_upscaled.png`
+- `assets/pfp.png`
+- `assets/pfpppp.png`
 
-If you move them into a folder later, update the image paths in this file.
+If any image does not load on GitHub, make sure the filename matches **exactly**, including capitalization.
 
 ---
 
@@ -347,6 +350,6 @@ MIT License.
 
 **Website:** [dragic.site](https://dragic.site)
 
-<img src="asdasda.png" alt="Dragic Avatar" width="140" />
+<img src="./assets/asdasda.png" alt="Dragic Avatar" width="140" />
 
 </div>
